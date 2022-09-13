@@ -1,0 +1,28 @@
+.header {
+    // Photo by <a href="https://unsplash.com/ja/@alexmotoc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alex Motoc</a> on <a href="https://unsplash.com/s/photos/computing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    width: 100%;
+    height: 100vh;
+    background-color: $main-color;
+    background-image: linear-gradient(#000000DD, #000000DD), url(/Styles/Images/christopher-gower-m_HRfLhgABo-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 4fr 3fr;
+
+    &__text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $cultured;
+        text-align: center;
+
+        &__title {
+            font-size: 64px;
+            span {
+                color: $main-color;
+            }
+        }
+    }
+}
