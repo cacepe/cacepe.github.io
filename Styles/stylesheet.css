@@ -38,7 +38,8 @@
     color: #F5F5F5;
     text-align: center; }
     .header__text__title {
-      font-size: 64px; }
+      font-size: 64px;
+      font-weight: 600; }
       .header__text__title span {
         color: #7510F7; }
 
@@ -179,7 +180,7 @@ body {
   bottom: 1em;
   right: 1em;
   animation-name: home;
-  animation-timing-function: ease;
+  animation-timing-function: ease-in-out;
   animation-fill-mode: both;
   animation-iteration-count: infinite;
   animation-duration: 2500ms; }
